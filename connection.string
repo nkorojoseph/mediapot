@@ -1,7 +1,0 @@
-npx prisma migrate diff \
-  --from-url 'postgresql://mediapotadmin:%2FPass%40098%2F@localhost:5435/mediapot_db?schema=public' \
-  --to-schema-datamodel prisma/schema.prisma \
-  --script > db/migrations/V1_2__appsettings_update_schema.sql \
-  --exclude flyway_schema_history
-
-
